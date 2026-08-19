@@ -1,0 +1,84 @@
+responsive.css
+/* Tablets */
+
+@media(max-width:992px){
+
+.hero h1{
+
+font-size:45px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+}
+
+}
+
+/* Mobiles */
+
+@media(max-width:768px){
+
+.hero{
+
+height:70vh;
+
+}
+
+.hero h1{
+
+font-size:35px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.navbar-brand{
+
+font-size:24px;
+
+}
+
+.card{
+
+margin-bottom:20px;
+
+}
+
+}
+
+/* Small Mobiles */
+
+@media(max-width:576px){
+
+.hero h1{
+
+font-size:28px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+}
+
+.btn{
+
+width:100%;
+
+}
+
+footer{
+
+font-size:14px;
+
+}
+
+}

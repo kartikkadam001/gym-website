@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+        ),
+        url("gym.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* Login Box */
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.login-box {
+    width: 600px;
+
+    background: rgba(20, 20, 20, 0.95);
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 30px rgba(255, 60, 0, 0.3);
+}
+
+/* Logo */
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+h1 span {
+    color: #ff4500;
+}
+
+/* Heading */
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 27px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #aaa;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+/* Input */
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.input-group input {
+    width: 100%;
+
+    padding: 14px;
+
+    border: 1px solid #444;
+    border-radius: 7px;
+
+    background: #292929;
+
+    color: white;
+
+    outline: none;
+
+    font-size: 15px;
+}
+
+.input-group input:focus {
+    border-color: #ff4500;
+}
+
+/* Options */
+
+.options {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 13px;
+
+    margin-bottom: 25px;
+}
+
+.options label {
+    color: #aaa;
+}
+
+.options a {
+    color: #ff4500;
+    text-decoration: none;
+}
+
+/* Login Button */
+
+button {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+    border-radius: 7px;
+
+    background: #ff4500;
+
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e63d00;
+    transform: scale(1.02);
+}
+
+/* Message */
+
+#message {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Register */
+
+.register {
+    text-align: center;
+
+    color: #aaa;
+
+    margin-top: 25px;
+}
+
+.register a {
+    color: #ff4500;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+/* Mobile */
+
+@media (max-width: 500px) {
+
+    .login-box {
+        width: 100%;
+        padding: 30px 25px;
+    }
+
+}
